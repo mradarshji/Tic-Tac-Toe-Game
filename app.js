@@ -27,7 +27,7 @@ boxes.forEach((box) => {
             box.innerText = "O";
             turnO = false;
         } else { //playerX
-            box.innerText = "Y";
+            box.innerText = "X";
             turnO = true;
         }
         box.disabled = true;
